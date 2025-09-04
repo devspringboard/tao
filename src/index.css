@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Onest:wght@100..900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    font-family: "Onest", sans-serif;
+}
+
+.border-button {
+    border: 1px solid #072948;
+}
+
+.border-dashed {
+    border: 1px dashed #072948;
+}
+
+.bg-wallet-card {
+    background-image: url("/assets/images/wallet_card.svg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 12.451px;
+    padding: 16.601px;
+    height: 213.74px;
+}
+
+.my-qr-bg {
+    background-image: url("/assets/images/qrBG.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+}

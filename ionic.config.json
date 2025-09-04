@@ -1,0 +1,10 @@
+{
+    "name": "MyTao",
+    "integrations": {
+        "capacitor": {}
+    },
+    "type": "react-vite",
+    "ID": "com.taoapp",
+    "version": "1.0.1",
+    "versionCode": 10001
+}
